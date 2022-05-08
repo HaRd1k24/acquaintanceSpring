@@ -10,7 +10,7 @@ public class TestController {
 
     @GetMapping("/")
     public String helloWorld(String name){
-        return "Минай чтоб ты сдох сука!!!".toUpperCase(Locale.ROOT);
+        return "Hi world".toUpperCase(Locale.ROOT);
     }
 
 /*
