@@ -39,6 +39,7 @@ example post : curl -X 'POST' -d {"lev"} \http://localhost:8080/post
             break;
             case 2: response.setMessage(" Hi, nice to meet you " + name + ", you version application 2");
             break;
+            default: response.setMessage("Oops, sorry, your version is not unknown");
         }
         return response;
      }
